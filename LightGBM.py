@@ -215,7 +215,8 @@ if __name__ == '__main__':
         verbose_eval=100,
         # feval=f1_score_eval
     )
-    clf.save_model("./lightgbm.txt")
+    savapath="./News/saved_dict/"
+    clf.save_model(savapath+"./lightgbm.txt")
 
     predict_y = clf.predict(dev_X, num_iteration=clf.best_iteration)
     # predict_y = [list(x).index(max(x)) for x in predict_y]

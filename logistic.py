@@ -176,8 +176,8 @@ if __name__ == '__main__':
     print(train_feature_list[0])
     print(train_class_list[0])
     clf.fit(train_feature_list,train_class_list)
-
-    joblib.dump(clf, "./logr.m")
+    savapath = "./News/saved_dict/"
+    joblib.dump(clf, savapath+"./logr.m")
 
     predict_y=clf.predict(test_feature_list)
     print(classification_report(test_class_list, predict_y, target_names=id2class))
