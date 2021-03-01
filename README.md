@@ -15,5 +15,8 @@ pytorch_pretrained为官方定义的加载bert需要的模块
 
 各方法定义见对应的py文件
 
-
+## 算法对比总览
 ![image](https://github.com/WhiteGive-Boy/ChineseTextClassification/blob/main/pic.png)
+
+## 结果
+![image](https://github.com/WhiteGive-Boy/ChineseTextClassification/blob/main/result.png)
